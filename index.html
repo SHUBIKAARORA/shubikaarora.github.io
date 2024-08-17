@@ -6,6 +6,7 @@
     <title>SHUBIKA ARORA</title>
     <link rel="stylesheet" href="./css/portfolio.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
@@ -17,17 +18,20 @@
         </div>
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
-                <li class="nav_list"><a class="nav-link" href="#home">HOME</a></li>
-                <li class="nav_list"><a class="nav-link " href="#about">ABOUT</a></li>
-                <li class="nav_list"><a class="nav-link " href="#project">PROJECT</a></li>
-                <li class="nav_list"><a class="nav-link " href="#contact">CONTACT</a></li>
+                <li class="nav_list home "><a class="nav-link scroll " href="#home">HOME</a></li>
+                <li class="nav_list about"><a class="nav-link scroll " href="#about">ABOUT</a></li>
+                <li class="nav_list project"><a class="nav-link scroll " href="#project">PROJECT</a></li>
+                <li class="nav_list certificate"><a class="nav-link scroll " href="#certificate">CERTIFICATE</a></li>
+                <li class="nav_list contact"><a class="nav-link scroll" href="#contact">CONTACT</a></li>
                 
             </ul>
         </div>
             <div class="nav-button">
-                <button class="btn">Download CV</button>
+                <a href="./assets/CV SHUBIKA ARORA.pdf" download="SHUBIKACV.pdf"><button id="download" class="btn">Download CV </button></a>
             </div> 
-
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
     </nav>
     <br>
     <!-- MAIN -->
@@ -39,13 +43,13 @@
                     <span>SHUBIKA ARORA</span>
                 </div>
                 <div class="featured-text-info">
-                    <p>I am a Student currently pusuing Btech and learning 
-                        web development.
+                    <p>A detail oriented BTech student at Dr Akhilesh Das Gupta Institute of Professional Studies. I am eager 
+                        to take on new challenges and responsibilities.
                     </p>
                 </div>
                 <div class="featured-text-btn">
                     <button class="btn blue-btn">Hire Me</button>
-                    <button class="btn">Download CV </button>
+                    <a href="./assets/CV SHUBIKA ARORA.pdf" download="SHUBIKACV.pdf"><button id="download" class="btn">Download CV </button></a>
                 </div>
                 <div class="social_icons">
                     <div class="icon"><a href="https://www.instagram.com/shubika20/?next=%2F" target="_blank"><i class="uil uil-instagram"></i></a></div>
@@ -55,11 +59,11 @@
                 </div>
                 <div class="featured-image">
                     <div class="image">
-                        <img src="https://raw.githubusercontent.com/tilakjain123/Portfolio/main/01/profile.png"alt="avatar">
+                        <img src="./images/portfolio.jpg"alt="avatar">
                     </div>
                 </div>
                 <div class="scroll-icon-box">
-                    <a href="#about" class="scroll-btn">
+                    <a href="#about" class="scroll-btn scroll">
                         <p>Scroll Down</p>
                     </a>
                 </div>
@@ -78,7 +82,7 @@
                                 extensively in languages such as c,c++,Java . For database connectivity I know Mysql. 
                             </p>
                             <div class="about-btn">
-                                <button class="btn">Download CV </button>
+                                <a href="./assets/CV SHUBIKA ARORA.pdf" download="SHUBIKACV.pdf"><button id="download" class="btn">Download CV </button></a>
                             </div>
                         </div>
                     </div>
@@ -124,13 +128,13 @@
                     <div class="col">
                         <div class="pro">
                             <h1>C++</h1>
-                            <a href="" target="_blank"><img src="./images/c++.webp"></a>
+                            <a href="https://github.com/SHUBIKAARORA/C-PROJECTS" target="_blank"><img src="./images/c++.webp"></a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="pro">
                             <h1>JAVA</h1>
-                            <a href="" target="_blank"><img src="./images/java.png"></a>
+                            <a href="https://github.com/SHUBIKAARORA/COVERTER" target="_blank"><img src="./images/java.png"></a>
                         </div>
                     </div>
                     <div class="col">
@@ -141,6 +145,19 @@
                     </div>
                 </div>
              </section>
+             <!-- CERTIFICATE BOX -->
+              <section class="section" id="certificate">
+                <div class="top-header">
+                    <h1>Certifications</h1>
+                </div>
+                <div class="certibox">
+                    <div class="divs">
+                        <img src="./images/images.jpg" alt="star certification in c++" style="width: 120px; float: left; padding: 2%;">
+                        <p style="align-items: justify;">Star Certification<br>in C++</p>
+                        <a href="./assets/C++SHUBIKAARORA.pdf" download="certificate.pdf"><button id="download" class="btn" style="float: right;" ><i class="fa fa-download">DOWNLOAD</i></button></a>
+                    </div>
+                </div>
+              </section>
             <!-- -------------- CONTACT BOX ---------------- -->
             <section class="section" id="contact">
                 <div class="top-header">
@@ -200,12 +217,15 @@
             </div>
             <div class="bottom-footer">
                 <p>Copyright © <a href="#home" style="text-decoration: none;">Shubika Arora</a> - All rights reserved
-                <button class="button"><a href="#home"><i class="uil uil-arrow-up"></i></a></button>
+                <button class="button "><a class="scroll" href="#home"><i class="uil uil-arrow-up"></i></a></button>
                 </p>
                 
             </div>
         </footer>
     </div>
-
+    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/portfolio.js"></script>
 </body>
 </html>
