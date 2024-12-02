@@ -1,0 +1,227 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+
+}
+.nav{
+    height: 40px;
+    background-color:lightgrey;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index:1;
+}
+.national,.international{
+display:inline-block;
+}
+.nav a{
+    color:blue;
+    height:40px;
+    display:block;
+    padding:10px 2px 2px 2px;
+    text-decoration: none;
+    align-items: center;
+}
+.nav a:hover{
+    color:black;
+
+}
+.dropdown,.dropdown1{
+    background-color: lightgrey;
+    display:none;
+}
+.dropdown a ,.dropdown1 a{
+    border-bottom: 2px solid white;
+}
+.national:hover .dropdown1{
+    display: block;
+    position:absolute;
+}
+.international:hover .dropdown{
+    display:block;
+    position:absolute;
+}
+.one{
+    font-size:large;
+}
+.two{
+   background-color: rgb(226, 183, 212); 
+   padding:5px;
+   text-align: center;
+   border: 4px solid black;
+}
+.three{
+    font-size: large;
+    margin:1.5%;
+}
+.four{
+    margin: auto;
+    padding: 10px;
+}
+.five{
+    background-color: pink;
+    width:900px;
+    border-radius: 10px;
+    font-size: large;
+    padding:5px;
+}
+.six{
+    font-size: large;
+    margin:1.5%;
+}
+table{
+    border-collapse: collapse;
+    width:700px;
+}
+td{
+    text-align: center;
+}
+th{
+    background-color:rgb(204, 144, 157);
+}
+tr:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.flipcard{
+    width: 1240px;
+    display:inline-block;
+    font-size: large;
+    border:2px solid black;
+    background-color:rgb(226, 183, 212);
+    margin: 0.5%;
+    padding: 0.5%;
+}
+.flipinner1{
+    position: relative;
+    width:350px;
+    height:300px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    float: left;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:3%;
+    padding-right: 2%;
+}
+.flipinner1:hover {
+    transform:rotateY(180deg);
+}
+.front1 , .back1{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+}
+.back1{
+    background-color:white;
+    color:black;
+    transform: rotateY(180deg);
+}
+.front2 , .back2{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+}
+.back2{
+    background-color:white;
+    color:black;
+    transform: rotateY(180deg);
+   
+}
+.front3 , .back3{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+}
+.back3{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+   
+}
+.front4 , .back4{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+    
+}
+.back4{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+}
+.front5 , .back5{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+    
+}
+.back5{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+}
+.front6 , .back6{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+    
+}
+.back6{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+}
+.front7 , .back7{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+    
+}
+.back7{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+}
+.front8 , .back8{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+    
+}
+.back8{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+}
+.front9 , .back9{
+    position:absolute;
+    width:350px;
+    height:300px;
+    backface-visibility: hidden;
+    border: 4px solid black;
+    
+}
+.back9{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+}
