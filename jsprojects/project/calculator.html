@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/calculator.css">
+    <script src="./js/calculator.js"></script>
+</head>
+    <body>
+    <div class="main">
+        <input type="text" id="result1" disabled>
+        <div class="two">
+            <button class="operator" onclick="deleteitem()">C</button>
+            <button class="operator" value="%" onclick="addlabel(this.value)">%</button>
+            <button class="operator" onclick="removestring()">&lt=</button>
+            <button class="operator" value="/" onclick="addlabel(this.value)">/</button>
+            <button class="number" value="7" onclick="addlabel(this.value)">7</button>
+            <button class="number" value="8" onclick="addlabel(this.value)">8</button>
+            <button class="number" value="9" onclick="addlabel(this.value)">9</button>
+            <button class="operator" value="*" onclick="addlabel(this.value)">*</button>
+            <button class="number" value="4" onclick="addlabel(this.value)">4</button>
+            <button class="number" value="5" onclick="addlabel(this.value)">5</button>
+            <button class="number" value="6" onclick="addlabel(this.value)">6</button>
+            <button class="operator" value="-" onclick="addlabel(this.value)">-</button> 
+            <button class="number" value="1" onclick="addlabel(this.value)">1</button>
+            <button class="number" value="2" onclick="addlabel(this.value)">2</button>
+            <button class="number" value="3" onclick="addlabel(this.value)">3</button>
+            <button class="operator" value="+" onclick="addlabel(this.value)">+</button>
+            <button class="number" value="00" onclick="addlabel(this.value)">00</button>
+            <button class="number" value="0" onclick="addlabel(this.value)">0</button>
+            <button class="operator"value="." onclick="addlabel(this.value)">.</button>
+            <button class="operator" onclick="result()">=</button>
+        </div>
+    </div>
+</body>
+</html>

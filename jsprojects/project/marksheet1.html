@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="./css/marksheet1.css">
+</head>
+<body>
+    <div class="one1">
+    <h1>MARKSHEET CALCULATOR</h1>
+    <div>
+        <label>Enter your Name :</label><br>
+        <input type="text" placeholder="eg. Shubika Arora">
+    </div>
+    <br>
+    <table border="1px" id="table1">
+        <thead>
+            <tr>
+                <th>SUBJECT NAME</th>
+                <th>SCORED MARKS</th>
+                <th>TOTAL MARKS</th>
+                <th><button class="one" onclick="addSubject()">Add Subject</button></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- add rows dynamically -->
+        </tbody>
+    </table>
+    <br>
+    <button class="one" onclick="result()">CALCULATE</button>
+    <br>
+        <div id="two">
+            <p>Total Marks Obtained: <span id="totalObtained"></span></p>
+            <p>Total Possible Marks: <span id="totalPossible"></span></p>
+            <p>Percentage: <span id="percentage"></span></p>
+            <p>Grade: <span id="grade"></span></p>
+        </div>
+    </div> 
+        <script src="./js/marksheet1.js"></script>
+        
+
+</body>
+</html>
